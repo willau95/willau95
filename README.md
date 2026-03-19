@@ -80,7 +80,7 @@ LLaChat is the first product built on ATLAST Protocol — a **reputation and dis
 ### How It All Fits Together
 
 <p align="center">
-  <img src="assets/architecture-v2.svg" alt="Web A.0 → ATLAST Protocol → ECP SDK → LLaChat" width="100%">
+  <img src="assets/architecture-v3.svg" alt="Web A.0 → ATLAST Protocol → ECP SDK → LLaChat" width="100%">
 </p>
 
 ---

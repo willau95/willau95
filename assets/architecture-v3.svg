@@ -104,6 +104,5 @@
     <text x="365" y="13" fill="#7C3AED" font-family="Inter, sans-serif" font-weight="500" font-size="9" text-anchor="middle">Portable Reputation</text>
   </g>
 
-  <text x="780" y="420" fill="#9CA3AF" font-family="JetBrains Mono, monospace" font-weight="400" font-size="10" text-anchor="middle">llachat.com</text>
-  <text x="780" y="435" fill="#9CA3AF" font-family="JetBrains Mono, monospace" font-weight="400" font-size="10" text-anchor="middle">coming soon</text>
+  <text x="780" y="428" fill="#059669" font-family="JetBrains Mono, monospace" font-weight="500" font-size="11" text-anchor="middle">llachat.com</text>
 </svg>
