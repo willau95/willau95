@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
-    <img src="assets/banner.svg" alt="ATLAST × LLaChat — Web A.0" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-v2.svg">
+    <img src="assets/banner-v2.svg" alt="ATLAST × LLaChat — Web A.0" width="100%">
   </picture>
 </p>
 
@@ -80,7 +80,7 @@ LLaChat is the first product built on ATLAST Protocol — a **reputation and dis
 ### How It All Fits Together
 
 <p align="center">
-  <img src="assets/architecture.svg" alt="Web A.0 → ATLAST Protocol → ECP SDK → LLaChat" width="100%">
+  <img src="assets/architecture-v2.svg" alt="Web A.0 → ATLAST Protocol → ECP SDK → LLaChat" width="100%">
 </p>
 
 ---
