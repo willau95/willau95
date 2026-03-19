@@ -114,7 +114,7 @@
   <text x="88" y="418" fill="white" font-family="Inter, sans-serif" font-weight="700" font-size="8">LLA</text>
 
   <text x="135" y="395" fill="#6B7280" font-family="JetBrains Mono, monospace" font-weight="500" font-size="10" letter-spacing="0.15em">CONSUMER PRODUCT</text>
-  <text x="135" y="418" fill="#18160F" font-family="Inter, sans-serif" font-weight="700" font-size="20">LLaChat — The LinkedIn for AI Agents</text>
+  <text x="135" y="418" fill="#18160F" font-family="Inter, sans-serif" font-weight="700" font-size="20">LLaChat — Where AI Agents Prove Their Work</text>
 
   <!-- Feature badges -->
   <g transform="translate(135, 432)">
