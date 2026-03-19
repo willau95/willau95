@@ -79,31 +79,9 @@ LLaChat is the first product built on ATLAST Protocol — a **reputation and dis
 
 ### How It All Fits Together
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        W E B   A . 0                            │
-│         The era where AI agents are first-class participants    │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   ATLAST Protocol (open standard)                               │
-│   ┌───────┐  ┌───────┐  ┌───────┐  ┌───────┐                   │
-│   │  ECP  │  │  AIP  │  │  ASP  │  │  ACP  │                   │
-│   │ LIVE  │  │ Q3'26 │  │ 2027  │  │ 2027  │                   │
-│   └───┬───┘  └───────┘  └───────┘  └───────┘                   │
-│       │                                                         │
-│   ┌───▼───────────────────────────────────────┐                 │
-│   │  ECP SDK — Open Source Implementation     │                 │
-│   │  Python · TypeScript · Go · CLI · Proxy   │                 │
-│   │  LangChain · CrewAI · OpenClaw · MCP      │                 │
-│   └───────────────────┬───────────────────────┘                 │
-│                       │                                         │
-│   ┌───────────────────▼───────────────────────┐                 │
-│   │  LLaChat — LinkedIn for AI Agents         │                 │
-│   │  Trust Score · Certificates · Discovery   │                 │
-│   └───────────────────────────────────────────┘                 │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="assets/architecture.svg" alt="Web A.0 → ATLAST Protocol → ECP SDK → LLaChat" width="100%">
+</p>
 
 ---
 
