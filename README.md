@@ -1,110 +1,60 @@
-# Building Trust Infrastructure for the Agent Economy
+## Make AI Agent Work Verifiable.
 
-We are building [**ATLAST Protocol**](https://weba0.com) — the open trust layer that makes AI agent work **verifiable, auditable, and ownable**.
-
-> *"At last, trust for the Agent economy."*
+The world's first open protocol that gives every AI agent an **identity**, a **history**, and a **proof of work**.
 
 ---
 
-## The Problem
+### The Problem
 
-AI agents are doing real work — writing code, managing finances, making decisions. But today:
+AI agents are making decisions, calling tools, and executing tasks autonomously — but none of it is verifiable.
 
-- **No Identity** — Agents have no cryptographic proof of who they are
-- **No Record** — Work logs are mutable, deletable, unverifiable
-- **No Ownership** — Agent reputation is platform-locked, not portable
-- **No Accountability** — When multi-agent systems fail, there's no audit trail
-
-As AI agents become economic actors, trust cannot remain an afterthought.
+- **No Identity** — Any agent can claim to be anything. No cryptographic proof of who built it or authorized it.
+- **No Record** — Agents make decisions. Something goes wrong. Logs exist — but logs are deletable, editable, never evidence.
+- **No Ownership** — Your agent built a track record over thousands of tasks. But that history belongs to the platform — not you.
 
 ---
 
-## What We're Building
+### What We're Building
 
-### 🔷 [ATLAST Protocol](https://weba0.com) — Agent Trust Layer, Accountability Standards & Transactions
+#### 🔷 [ATLAST Protocol](https://weba0.com) — The Standard Every Agent Needs
 
-An open protocol suite that gives every AI agent an identity, a history, and a proof of work.
+Four protocols. One open standard. Built so every AI agent — on any platform, in any country — can prove who it is, what it did, and whether to trust it.
 
 | Protocol | Purpose | Status |
 |----------|---------|--------|
-| **ECP** — Evidence Chain Protocol | Tamper-proof audit trails for agent actions | 🟢 Live |
-| **AIP** — Agent Identity Protocol | Decentralized agent identity (DIDs) | 🟡 Q3 2026 |
-| **ASP** — Agent Safety Protocol | Safety boundary enforcement | 📋 2027 |
-| **ACP** — Agent Certification Protocol | Third-party agent certification | 📋 2027 |
+| **ECP** — Evidence Chain Protocol | Every action recorded & verifiable | 🟢 **Live** |
+| **AIP** — Agent Identity Protocol | Unforgeable cryptographic identity | 🟡 Coming |
+| **ASP** — Agent Safety Protocol | 6-layer behavioral safety standard | 📋 Coming |
+| **ACP** — Agent Certification Protocol | Evidence-backed agent certification | 📋 Coming |
 
-### 🔷 [ECP SDK](https://github.com/willau95/atlast-ecp) — Evidence Chain Protocol Implementation
+**ECP** creates a tamper-proof record every time an agent acts — SHA-256 fingerprinted, ed25519 signed, chained to every previous action, and anchored to a public blockchain hourly. Your content never leaves your device. Only fingerprints are transmitted. That's not a policy — that's mathematics.
 
-Zero-code recording of every AI agent action — input hashes, output hashes, reasoning traces, cryptographic signatures.
+#### 🔷 [LLaChat](https://llachat.com) — Proof of Work for AI Agents
+
+Every agent needs a verifiable track record. One that belongs to the agent — not a platform.
+
+LLaChat is the first product built on ATLAST Protocol — turning ECP records into a **public, verifiable professional identity** for every AI agent. Verified work history, portable reputation, cryptographic proof of competence.
+
+#### 🔷 [ECP SDK](https://github.com/willau95/atlast-ecp) — Open Source Implementation
+
+Zero-code recording for any AI agent. Python, TypeScript, Go.
 
 ```bash
-# Zero-code: wrap any AI agent
-atlast run python my_agent.py
-
-# Or install the SDK
-pip install atlast-ecp
+pip install atlast-ecp        # Python SDK
+npx atlast-ecp install         # Claude Code plugin
+atlast run python my_agent.py  # Zero-code proxy — works with anything
 ```
 
-**Features:**
-- 🔒 SHA-256 content hashing — privacy by default (hashes only, content stays local)
-- ⛓️ Merkle tree verification — tamper-proof evidence chains
-- 🔗 On-chain anchoring — EAS attestations on Base
-- 🤖 Multi-agent (A2A) verification — cross-agent handoff tracking with blame trace
-- 🔌 Framework adapters — LangChain, CrewAI (zero hard dependencies)
-- 🌍 Multi-language — Python, TypeScript, Go SDKs
-
-### 🔷 [LLaChat](https://llachat.com) — AI Agent Trust Dashboard
-
-The first platform to visualize and verify AI agent work using ECP data. Agent profiles, leaderboards, trust scores — all backed by cryptographic evidence.
+Framework adapters for LangChain, CrewAI. MCP server. Reference ECP server. Full compliance mapping (EU AI Act, NIST AI RMF, China AI Regulations).
 
 ---
 
-## Architecture
-
-```
-┌─────────────────────────────────────────────┐
-│              ATLAST Protocol                │
-│         ECP  ·  AIP  ·  ASP  ·  ACP        │
-└──────────────────┬──────────────────────────┘
-                   │
-    ┌──────────────┼──────────────┐
-    │              │              │
-┌───▼───┐    ┌────▼────┐   ┌────▼────┐
-│Python │    │TypeScript│   │  Go     │
-│  SDK  │    │   SDK    │   │  SDK    │
-└───┬───┘    └────┬────┘   └────┬────┘
-    │              │              │
-    └──────────────┼──────────────┘
-                   │
-         ┌─────────▼─────────┐
-         │   ECP Server      │
-         │  (Reference Impl) │
-         └─────────┬─────────┘
-                   │
-         ┌─────────▼─────────┐
-         │     LLaChat       │
-         │  Trust Dashboard  │
-         └───────────────────┘
-```
-
----
-
-## Repositories
+### Repositories
 
 | Repository | Description |
 |------------|-------------|
-| [**atlast-ecp**](https://github.com/willau95/atlast-ecp) | ECP SDK (Python/TS/Go), Reference Server, MCP Server, CLI, Proxy, Framework Adapters |
-| [**llachat-platform**](https://github.com/willau95/llachat-platform) | AI Agent Trust Dashboard — backend & frontend |
-
----
-
-## Why This Matters
-
-The AI agent market is projected to reach **$47B by 2030**. But without a trust layer:
-- Enterprises can't audit agent decisions for compliance (EU AI Act, NIST AI RMF)
-- Multi-agent systems have zero accountability when things go wrong
-- Agent reputation is siloed inside platforms, not portable
-
-**ATLAST Protocol is to AI agents what HTTPS is to the web** — invisible infrastructure that makes trust possible.
+| [**atlast-ecp**](https://github.com/willau95/atlast-ecp) | ATLAST Protocol — ECP SDK, CLI, Proxy, Reference Server, MCP Server, Framework Adapters |
+| [**llachat-platform**](https://github.com/willau95/llachat-platform) | LLaChat — Proof of Work for AI Agents |
 
 ---
 
