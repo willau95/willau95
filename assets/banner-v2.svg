@@ -17,11 +17,11 @@
   <text x="600" y="72" fill="#6B7280" font-family="JetBrains Mono, monospace" font-weight="600" font-size="13" text-anchor="middle" letter-spacing="0.15em">WEB A.0</text>
 
   <!-- ATLAST logo 44x44 -->
-  <g transform="translate(280, 100) scale(1.375)">
+  <g transform="translate(350, 100) scale(1.375)">
     <rect width="32" height="32" rx="7" fill="#18160F"/>
     <polygon points="0,0 20,0 20,12 28,12 28,20 32,20 32,32 12,32 12,20 4,20 4,12 0,12" fill="#F7F4EE"/>
   </g>
-  <text x="336" y="130" fill="#18160F" font-family="Inter, sans-serif" font-weight="700" font-size="36">ATLAST</text>
+  <text x="406" y="130" fill="#18160F" font-family="Inter, sans-serif" font-weight="700" font-size="36">ATLAST</text>
 
   <text x="540" y="131" fill="#C0BDB6" font-family="Inter, sans-serif" font-weight="300" font-size="32" text-anchor="middle">×</text>
 
