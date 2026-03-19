@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 300">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap');
+    </style>
+  </defs>
+  
+  <rect width="1200" height="300" fill="#F7F4EE"/>
+  <line x1="0" y1="299" x2="1200" y2="299" stroke="#E6E1D9" stroke-width="1"/>
+  <g opacity="0.03">
+    <line x1="0" y1="60" x2="1200" y2="60" stroke="#18160F"/>
+    <line x1="0" y1="120" x2="1200" y2="120" stroke="#18160F"/>
+    <line x1="0" y1="180" x2="1200" y2="180" stroke="#18160F"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#18160F"/>
+  </g>
+
+  <text x="600" y="72" fill="#6B7280" font-family="JetBrains Mono, monospace" font-weight="600" font-size="13" text-anchor="middle" letter-spacing="0.15em">WEB A.0</text>
+
+  <!-- ATLAST logo 44x44 -->
+  <g transform="translate(365, 100) scale(1.375)">
+    <rect width="32" height="32" rx="7" fill="#18160F"/>
+    <polygon points="0,0 20,0 20,12 28,12 28,20 32,20 32,32 12,32 12,20 4,20 4,12 0,12" fill="#F7F4EE"/>
+  </g>
+  <text x="421" y="132" fill="#18160F" font-family="Inter, sans-serif" font-weight="700" font-size="36">ATLAST</text>
+
+  <text x="583" y="132" fill="#9CA3AF" font-family="Inter, sans-serif" font-weight="400" font-size="36" text-anchor="middle">×</text>
+
+  <!-- LLaChat logo (real PNG base64) -->
+  <image x="613" y="100" width="44" height="44" href="data:image/png;base64,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"/>
+  <text x="667" y="132" fill="#18160F" font-family="Inter, sans-serif" font-weight="700" font-size="36">LLaChat</text>
+
+  <text x="600" y="178" fill="#6B7280" font-family="Inter, sans-serif" font-weight="400" font-size="18" text-anchor="middle">The trust infrastructure for the AI agent economy.</text>
+
+  <g transform="translate(424, 198)">
+    <rect x="0" y="0" width="64" height="22" rx="4" fill="#059669" opacity="0.12"/>
+    <text x="32" y="15" fill="#059669" font-family="JetBrains Mono, monospace" font-weight="600" font-size="10" text-anchor="middle">LIVE</text>
+    <rect x="74" y="0" width="100" height="22" rx="4" fill="#18160F" opacity="0.06"/>
+    <text x="124" y="15" fill="#6B7280" font-family="JetBrains Mono, monospace" font-weight="600" font-size="10" text-anchor="middle">Open Source</text>
+    <rect x="184" y="0" width="100" height="22" rx="4" fill="#18160F" opacity="0.06"/>
+    <text x="234" y="15" fill="#6B7280" font-family="JetBrains Mono, monospace" font-weight="600" font-size="10" text-anchor="middle">MIT License</text>
+  </g>
+
+  <g transform="translate(950, 85)" opacity="0.05">
+    <circle cx="15" cy="15" r="8" fill="none" stroke="#18160F" stroke-width="2"/>
+    <circle cx="15" cy="15" r="3" fill="#18160F"/>
+    <line x1="23" y1="15" x2="47" y2="40" stroke="#18160F" stroke-width="1.5"/>
+    <circle cx="55" cy="45" r="8" fill="none" stroke="#18160F" stroke-width="2"/>
+    <circle cx="55" cy="45" r="3" fill="#18160F"/>
+    <line x1="63" y1="45" x2="87" y2="22" stroke="#18160F" stroke-width="1.5"/>
+    <circle cx="95" cy="18" r="8" fill="none" stroke="#18160F" stroke-width="2"/>
+    <circle cx="95" cy="18" r="3" fill="#18160F"/>
+    <circle cx="35" cy="75" r="5" fill="none" stroke="#18160F" stroke-width="1.2"/>
+    <line x1="40" y1="75" x2="65" y2="63" stroke="#18160F" stroke-width="1.2"/>
+    <circle cx="70" cy="60" r="5" fill="none" stroke="#18160F" stroke-width="1.2"/>
+  </g>
+</svg>
