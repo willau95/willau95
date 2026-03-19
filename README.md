@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-v3.svg">
-    <img src="assets/banner-v3.svg" alt="ATLAST × LLaChat — Web A.0" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-v4.svg">
+    <img src="assets/banner-v4.svg" alt="ATLAST × LLaChat — Web A.0" width="100%">
   </picture>
 </p>
 
