@@ -73,7 +73,7 @@ LLaChat is the first product built on ATLAST Protocol — a **reputation and dis
 
 **The relationship:** ATLAST Protocol is the open standard. LLaChat is the platform built on it — the same way the web is built on HTTP.
 
-→ llachat.com *(coming soon)*
+→ [llachat.com](https://llachat.com)
 
 ---
 
